@@ -1065,13 +1065,13 @@ function FAQSection() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Still have questions?</h3>
                 <p className="text-gray-600 mb-6">Our solar experts are here to help you.</p>
                 <div className="space-y-3">
-                  <a href="tel:+60123456789" className="flex items-center gap-3 text-[#0161c9] hover:underline">
+                  <a href="tel:+601120672895" className="flex items-center gap-3 text-[#0161c9] hover:underline">
                     <Phone size={20} />
-                    <span>+60 12-345 6789</span>
+                    <span>+60 11-2067 2895</span>
                   </a>
-                  <a href="mailto:hello@eternalgy.com" className="flex items-center gap-3 text-[#0161c9] hover:underline">
+                  <a href="mailto:enquiry@eternalgy.me" className="flex items-center gap-3 text-[#0161c9] hover:underline">
                     <Mail size={20} />
-                    <span>hello@eternalgy.com</span>
+                    <span>enquiry@eternalgy.me</span>
                   </a>
                 </div>
               </div>
@@ -1228,22 +1228,22 @@ function CTASection() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <a href="tel:+60123456789" className="flex items-center gap-3 text-white hover:text-[#f6c71e] transition-colors">
+          <a href="tel:+601120672895" className="flex items-center gap-3 text-white hover:text-[#f6c71e] transition-colors">
             <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
               <Phone size={20} />
             </div>
             <div className="text-left">
               <div className="text-sm text-gray-400">Call Us</div>
-              <div className="font-semibold">+60 12-345 6789</div>
+              <div className="font-semibold">+60 11-2067 2895</div>
             </div>
           </a>
-          <a href="mailto:hello@eternalgy.com" className="flex items-center gap-3 text-white hover:text-[#f6c71e] transition-colors">
+          <a href="mailto:enquiry@eternalgy.me" className="flex items-center gap-3 text-white hover:text-[#f6c71e] transition-colors">
             <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
               <Mail size={20} />
             </div>
             <div className="text-left">
               <div className="text-sm text-gray-400">Email Us</div>
-              <div className="font-semibold">hello@eternalgy.com</div>
+              <div className="font-semibold">enquiry@eternalgy.me</div>
             </div>
           </a>
           <div className="flex items-center gap-3 text-white">
@@ -1252,7 +1252,9 @@ function CTASection() {
             </div>
             <div className="text-left">
               <div className="text-sm text-gray-400">Visit Us</div>
-              <div className="font-semibold">Taman Mount Austin, Johor</div>
+              <div className="font-semibold">
+                23-01 Jalan Mutiara Emas 10/19, Taman Mutiara Emas, 81100 Johor Bahru, Johor
+              </div>
             </div>
           </div>
         </div>
@@ -1284,7 +1286,7 @@ function CTASection() {
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
-              <input type="tel" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0161c9] focus:border-transparent outline-none" placeholder="+60 12-345 6789" />
+              <input type="tel" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0161c9] focus:border-transparent outline-none" placeholder="+60 11-2067 2895" />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Electricity Bill (RM)</label>
@@ -1396,21 +1398,21 @@ function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="text-[#0161c9] flex-shrink-0 mt-1" size={20} />
                 <span className="text-gray-400">
-                  123 Jalan Austin Heights,<br />
-                  Taman Mount Austin,<br />
-                  81100 Johor Bahru, Johor
+                  23-01 Jalan Mutiara Emas 10/19,<br />
+                  Taman Mutiara Emas,<br />
+                  81100 Johor Bahru, Johor, Malaysia
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-[#0161c9] flex-shrink-0" size={20} />
-                <a href="tel:+60123456789" className="text-gray-400 hover:text-white transition-colors">
-                  +60 12-345 6789
+                <a href="tel:+601120672895" className="text-gray-400 hover:text-white transition-colors">
+                  +60 11-2067 2895
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-[#0161c9] flex-shrink-0" size={20} />
-                <a href="mailto:hello@eternalgy.com" className="text-gray-400 hover:text-white transition-colors">
-                  hello@eternalgy.com
+                <a href="mailto:enquiry@eternalgy.me" className="text-gray-400 hover:text-white transition-colors">
+                  enquiry@eternalgy.me
                 </a>
               </li>
             </ul>
